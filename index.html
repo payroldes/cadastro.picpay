@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro PicPay do Amanhã</title>
+
+    <!-- estilo -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo-picpay-white.svg" alt="picpaylogo" />
+      <h1 id="title">Programa Jovem Aprendiz 2021</h1>
+    </header>
+
+    <div class="container">
+      <h3 id="subtitle">Complete com suas informações:</h3>
+      <br />
+      <label><strong>Nome</strong></label>
+      <input placeholder="Nome" type="text" id="name" />
+      <br />
+      <label><strong>Sobrenome</strong></label>
+      <input placeholder="Sobrenome" type="text" id="surname" />
+      <br />
+      <label><strong>Data de Nascimento</strong></label>
+      <input placeholder="idade" type="date" id="date" />
+      <button class="my-button" , onclick="enviar()">
+        <strong>Cadastrar</strong>
+      </button>
+    </div>
+
+    <div id="result"></div>
+  </body>
+</html>
+
+<!-- MAIN JAVASCRIPIT -->
+<script src="main.js"></script>

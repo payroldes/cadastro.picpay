@@ -1,0 +1,101 @@
+/* ======== RESET ==================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+/* base formulário */
+body {
+  background-color: #f0f1e9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #11c76f;
+  padding: 1rem 1.5rem;
+}
+
+header img {
+  width: 120px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  max-width: 60rem;
+  padding: 1rem;
+  margin: 15px auto;
+}
+
+.container label {
+  color: black;
+  padding: 8px;
+  margin-bottom: 2px;
+}
+
+.container input {
+  padding: 0.2em;
+  width: 100%;
+  border-radius: 999999px;
+  box-shadow: 2px 2px 2px #11c76f;
+  padding: 8px;
+  width: 200px;
+  border: 0;
+
+  margin-bottom: 1rem;
+}
+
+.container input:focus {
+  border: solid 2px #11c76f;
+}
+
+#title {
+  color: #f7f7f7;
+  word-spacing: 1.5px;
+  font-size: 1.5rem;
+}
+
+#subtitle {
+  font-size: 1rem;
+  color: #11c76f;
+  text-align: center;
+}
+
+/* == BOTÃO ==*/
+.my-button {
+  width: 300px;
+  height: 40px;
+  background: #11c76f;
+  color: #fff;
+  border: 0;
+  border-radius: 999999px;
+
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background: #1ca060;
+}
+
+/* resultado javascript */
+#result {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 2.4rem;
+}
+
+#result h2 {
+  background: #11c76f;
+
+  border-right: solid 3px #fff;
+  padding: 10px;
+  margin-top: 1%;
+}
